@@ -1,0 +1,56 @@
+/* Add your CSS styles here to customize the website appearance */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.jumbotron {
+    background-image: url("/BeCode/GitHub/restaurant-css-framework/img/Logo.png"); /* Add a background image */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #a03030;
+    padding: 100px 0;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    background-color: aqua;
+}
+
+.panel {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.p {
+    font-size: x-large;
+}
