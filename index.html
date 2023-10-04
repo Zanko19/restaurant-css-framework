@@ -10,65 +10,88 @@
     <link rel="shortcut icon" href="/GitHub/restaurant-css-framework/img/Logo+Slogan.png" type="image/x-icon" />
 </head>
 <body>
+  <div id="cb-cookie-banner" class="alert alert-dark text-center mb-0" role="alert">
+    🍪 This website uses cookies to ensure you get the best experience on our website.
+    <a href="https://www.cookiesandyou.com/" target="blank">Learn more</a>
+    <button type="button" class="btn btn-primary btn-sm ms-3" onclick="window.cb_hideCookieBanner()">
+    I Got It
+    </button>
+    </div>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img
-              src="/GitHub/restaurant-css-framework/img/Logozoom.png"
-              alt="Logo"
-              title="Home"
-              width="80"
-            />
-          </a>
-          <button
-            class="navbar-toggler order-0"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse order-2" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="welcome.html"
-                >Welcome</a
-              >
-              <a class="nav-link" href="menu.html">Menu</a>
-              <a class="nav-link" href="pictures.html">Pictures</a>
-              <a class="nav-link" href="restaurant.html">Restaurant</a>
-              <a class="nav-link" href="contact.html">Contact</a>
+            <a class="navbar-brand" href="index.html">
+                <img class="animation" src="/GitHub/restaurant-css-framework/img/Logozoom.png" alt="Logo" title="Home" width="80" />
+            </a>
+            <button
+                class="navbar-toggler order-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse order-2" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="welcome.html">Welcome</a>
+                    <a class="nav-link" href="menu.html">Menu</a>
+                    <a class="nav-link" href="pictures.html">Pictures</a>
+                    <a class="nav-link" href="restaurant.html">Restaurant</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </div>
             </div>
-          </div>
         </div>
-      </nav>
-    
+    </nav>
 
     <!-- Jumbotron -->
-    <section class="jumbotron">
-        <h1>Bienvenue dans notre restaurant</h1>
-        <p>Découvrez des saveurs exquises et des expériences gastronomiques délicieuses.</p>
-        <img class="Logo" src="/GitHub/restaurant-css-framework/img/Logo+Slogan.png">
-    </section>
+    <section class="jumbotron text-center bg-image" style="background-image: url(/ImageResto/pablo-pacheco-D3Mag4BKqns-unsplash.jpg); background-size: cover; background-repeat: no-repeat; background-position: center center; height: 500p;
+      <div class="container">
+          <h1 class="display-1; text-white"><b>Bienvenue dans notre restaurant</b></h1>
+          <p class="text-white"><b>Découvrez des saveurs exquises et des expériences gastronomiques délicieuses.</b></p>
+          <img class="Logo img-fluid" src="/GitHub/restaurant-css-framework/img/Logo+Slogan.png">
+          
+      </div>
+  </section>
+  
 
     <!-- News Panels -->
-    <section class="news">
-        <div class="panel">
-            <h2>Promo</h2>
-            <p>Profite de 20% de réduction sur le menu du chef à la carte cette semaine.</p>
+    
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card border-danger mb-3">
+                    <div class="card-header bg-danger text-white">
+                        Promo
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Profitez de 20% de réduction sur le menu du chef à la carte cette semaine.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card border-danger mb-3">
+                    <div class="card-header bg-danger text-white">
+                        Soirée musique Live
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Rejoignez-nous tous les vendredis soirs pour de la musique live et de la bonne cuisine.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="panel">
-            <h2>Soirée musique Live</h2>
-            <p>Rejoins nous tout les vendredis soirs pour de la musique live et de la bonne cuisine.</p>
-        </div>
+    </div>
+    
     </section>
 
     <!-- Footer -->
-    <footer>
-        <p>&copy; 2023 <i>PizzAventura</i>. Tous droits réservés.</p>
-    </footer>
+    <footer class="bg-dark text-light text-center py-2">
+      <div class="container">
+          <p><small>&copy;</small> 2023 <i>PizzAventura</i>. Tous droits réservés.</p>
+      </div>
+  </footer>
+  
 </body>
 </html>

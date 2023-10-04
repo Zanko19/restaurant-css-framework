@@ -1,8 +1,6 @@
 /* Add your CSS styles here to customize the website appearance */
 
-body {
-    font-family: Arial, sans-serif;
-}
+
 
 nav {
     background-color: #333;
@@ -20,14 +18,6 @@ nav li {
     margin-right: 20px;
 }
 
-.jumbotron {
-    background-image: url(/ImageResto/pablo-pacheco-D3Mag4BKqns-unsplash.jpg); /* Add a background image */
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    color: #a03030;
-    padding: 100px 0;
-}
 
 .news {
     display: flex;
@@ -37,25 +27,25 @@ nav li {
     background-color: rgb(255, 149, 0);
 }
 
-.panel {
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid #b04545;
-    border-radius: 5px;
-}
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-.p {
-    font-size: x-large;
-}
+
+
+
 
 .Logo {
     background-color: #baaaaa96;
-    opacity: 0.8;
+    opacity: 0.9;
+}
+
+.animation {
+    animation: rotateImage 5s linear infinite; /* Rotation continue pendant 10 secondes */
+}
+
+@keyframes rotateImage {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
