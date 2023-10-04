@@ -21,7 +21,7 @@ nav li {
 }
 
 .jumbotron {
-    background-image: url("/BeCode/GitHub/restaurant-css-framework/img/Logo.png"); /* Add a background image */
+    background-image: url(/ImageResto/pablo-pacheco-D3Mag4BKqns-unsplash.jpg); /* Add a background image */
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -34,14 +34,14 @@ nav li {
     justify-content: center;
     align-items: center;
     font-weight: 800;
-    background-color: aqua;
+    background-color: rgb(255, 149, 0);
 }
 
 .panel {
     text-align: center;
     padding: 20px;
     margin: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #b04545;
     border-radius: 5px;
 }
 
@@ -53,4 +53,9 @@ footer {
 }
 .p {
     font-size: x-large;
+}
+
+.Logo {
+    background-color: #baaaaa96;
+    opacity: 0.8;
 }
