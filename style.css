@@ -1,6 +1,6 @@
 .Logo {
     background-color: #baaaaa96;
-    opacity: 0.9;
+    opacity: 0.65;
 }
 
 .animation {
@@ -21,3 +21,4 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+#cb-cookie-banner { position: fixed; bottom: 0; left: 0; width: 100%; z-index: 999; border-radius: 0; display: none; }
