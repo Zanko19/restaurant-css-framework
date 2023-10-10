@@ -12,7 +12,7 @@ Ce document résume les principaux aspects du projet de site web fictif pour un 
 
 ## Captures d'Écran du Projet
 
-![Capture d'écran de la Page d'Accueil](/GitHub/restaurant-css-framework/img/CE_Acceuil.png)
+![Capture d'écran de la Page d'Accueil](./img/CE_Acceuil.png)
 *Page d'Accueil*
 
 ![Capture d'écran de la Page du Menu](/GitHub/restaurant-css-framework/img/CE_Menu.png)
