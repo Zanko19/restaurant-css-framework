@@ -20,7 +20,7 @@
     }
 }
 body {
-    background-image: url(/ImageResto/back.jpg);
+    background-image: url(./img/back.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
