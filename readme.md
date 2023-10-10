@@ -1,6 +1,9 @@
 # Projet de Site Web Fictif pour un Restaurant
 
 Ce document résume les principaux aspects du projet de site web fictif pour un restaurant. Le site web a été créé en utilisant HTML, CSS, et le framework Bootstrap.
+## Lien vers le Site Web
+
+Le site web fictif du restaurant peut être consulté à l'adresse suivante : [PizzAventura](https://zanko19.github.io/restaurant-css-framework/index.html) (cfr screen si error 404 (à régler))
 
 ## Technologies Utilisées
 
@@ -32,10 +35,6 @@ Ce document résume les principaux aspects du projet de site web fictif pour un 
 
 ![Capture d'écran de la Page de Contact](./img/CE_Contact.png)
 *Page de Contact*
-
-## Lien vers le Site Web
-
-Le site web fictif du restaurant peut être consulté à l'adresse suivante : [PizzAventura](https://zanko19.github.io/restaurant-css-framework/index.html) (cfr screen si error 404 (à régler))
 
 ---
 Auteur : Dedeurwaerder Guillaume
