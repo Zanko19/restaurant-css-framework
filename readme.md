@@ -15,22 +15,28 @@ Ce document résume les principaux aspects du projet de site web fictif pour un 
 ![Capture d'écran de la Page d'Accueil](./img/CE_Acceuil.png)
 *Page d'Accueil*
 
-![Capture d'écran de la Page du Menu](/GitHub/restaurant-css-framework/img/CE_Menu.png)
+![Capture d'écran de la Page du Menu](./img/CE_Menu.png)
 *Page du Menu*
 
-![Capture d'écran de la Page du Restaurant](lien_vers_capture_restaurant.png)
+![Capture d'écran de la Page du Restaurant](./img/CE_Resto.png)
 *Page du Restaurant*
 
-![Capture d'écran de la Page des Photos](lien_vers_capture_photos.png)
+![Capture d'écran de la Page des Photos](./img/CE_pic1.png)
 *Page des Photos*
 
-![Capture d'écran de la Page de Contact](lien_vers_capture_contact.png)
+![Capture d'écran de la Page des Photos](./img/CE_pic2.png)
+*Page des Photos*
+
+![Capture d'écran de la Page des Photos](./img/CE_pic3.png)
+*Page des Photos*
+
+![Capture d'écran de la Page de Contact](./img/CE_Contact.png)
 *Page de Contact*
 
 ## Lien vers le Site Web
 
-Le site web fictif du restaurant peut être consulté à l'adresse suivante : [lien_vers_votre_site_web](https://www.votresitefictif.com)
+Le site web fictif du restaurant peut être consulté à l'adresse suivante : [PizzAventura](https://zanko19.github.io/restaurant-css-framework/index.html) (cfr screen si error 404 (à régler))
 
 ---
-Auteur : [Votre Nom]
-Date de Création : [Date]
+Auteur : Dedeurwaerder Guillaume
+Date de Création : 10/10/23
